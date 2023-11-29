@@ -52,3 +52,10 @@ body {
 .speaker__bio, .speaker__company {
   color: var(--color-text-on-secondary);
 }
+
+@media (max-width: 900px) {
+  .nav {
+    background-color: var(--color-text-on-primary);
+  }
+}
+
